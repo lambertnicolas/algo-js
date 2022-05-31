@@ -18,7 +18,7 @@ function multiRand(n) {
 }
 
 //Question posée à l'utlisateur
-let n = Number(readlineSync.question("Combien de nombre aléatoire désirez-vous ?"));
+let nbre = Number(readlineSync.question("Combien de nombre aléatoire désirez-vous ?"));
 
 //Affichage nombre aléatoire
-console.log(`Voici une liste de ${n} nombres aléatoires de 1 à 10 : ${multiRand(n)}`);
+console.log(`Voici une liste de ${nbre} nombres aléatoires de 1 à 10 : ${multiRand(nbre)}`);
